@@ -1,0 +1,11 @@
+# API Keys for Simulation Services
+API_KEY_UNISWAP=your_uniswap_api_key_here
+API_KEY_TENDERLY=your_tenderly_api_key_here
+
+# RPC Provider
+BLOCKCHAIN_NODE_URL=https://mainnet.infura.io/v3/your_infura_project_id
+
+# Simulation Parameters
+SIMULATION_BLOCK_NUMBER=12345678
+PRIORITY_FEE=0.1
+
