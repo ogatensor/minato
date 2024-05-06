@@ -127,9 +127,7 @@ Where:
 
 To compute these attribution components, the paper uses a Taylor series expansion of the price function $p(x)$ around the baseline $x'$:
 
-```math
 $$\pi = \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'} + \left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'} + \left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'} + R(x, x')$$
-```
 
 Where $R(x, x')$ represents the remainder term in the Taylor expansion.
 
@@ -159,9 +157,7 @@ Where $p'$ is the baseline or counterfactual price.
 
 To attribute the price improvement $\pi$, the paper proposes a Taylor series expansion of the price function $p(x)$ around the baseline $x'$:
 
-```math
 $$\pi = \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'} + \left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'} + \left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'} + R(x, x')$$
-```
 
 Where:
 - $ \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'}$ represents the price improvement due to routing optimization ($\pi_{routing}$)
