@@ -51,7 +51,7 @@ This formula calculates the effective price per input token, taking into account
 
 This derivation provides a clear understanding of how transaction costs are integrated into the price calculation in an AMM setting, ensuring that the realized price reflects both the market conditions and the cost of executing the trade.
 
-## Dialogues 
+## Dialogues & Analysis 
 
 It's interesting to consider how Wuxing theory might provide a framework for interpreting the realized price expression. Here's a possible approach, keeping in mind that this involves applying a traditional philosophical concept to a modern financial calculation:
 
