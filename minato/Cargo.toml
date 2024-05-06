@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+alloy-contract = "0.1.0"
+alloy-json-rpc = "0.1.0"
+alloy-provider = "0.1.0"
