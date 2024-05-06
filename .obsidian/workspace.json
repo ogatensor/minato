@@ -142,6 +142,12 @@
   },
   "active": "95b03e2d1d37efa7",
   "lastOpenFiles": [
+    "book/misc/image.png",
+    "book/misc/obsidian-formatting.md",
+    "book/misc",
+    "book/obsidian-formatting.md",
+    "book/image.png",
+    "book/wood/Wood (木).md",
     "book/water/Water (水).md",
     "book/metal/Routing API.md",
     "book/fire/Output Amount ($o'$).md",
@@ -164,10 +170,6 @@
     "Water (水).md",
     "Fire (火).md",
     "Wood (木).md",
-    "book/metal/Realized Price Derivation.md",
-    "Counterfactual Price Generation.md",
-    "book/wood/Wuxing Equations.md",
-    "Realized Price Definition.md",
     "image.png"
   ]
 }
