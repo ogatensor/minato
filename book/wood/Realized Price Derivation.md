@@ -1,8 +1,12 @@
-Defining the "realized price" (p):
+Defining the "realized price" ($p$):
 
-This is the actual price at which the swap was executed on the OFA interface.
-It takes into account the input token amount (i), output token amount (o), gas used (g), base fee per gas (b), and priority fee per gas (f).
-The formula is: p = o / (i + g(b + f))
+This is the actual price at which the swap was executed on the OFA interface. It takes into account the input token amount ($i$), output token amount ($o$), gas used ($g$), base fee per gas ($b$), and priority fee per gas ($f$). The formula is: $p = o / (i + g(b + f))$
+
+## Table of Contents
+- [Mathematical Derivation](#mathematical-derivation)
+- [Mathematical Structure Definition](#mathematical-structure-definition)
+- [Realized Price Derivation](#realized-price-derivation)
+- [Derivation Steps](#derivation-steps)
 
 ## Mathematical Derivation
 
