@@ -1,10 +1,13 @@
 ## Realized Price Derivation
 
-### Realized Price Definition
+### [[Realized Price Definition]]
 
 Defining the "realized price" ($p$):
 
-This is the actual price at which the swap was executed on the OFA interface. It takes into account the input token amount ($i$), output token amount ($o$), gas used ($g$), base fee per gas ($b$), and priority fee per gas ($f$). The formula is: $p = o / (i + g(b + f))$
+This is the actual price at which the swap was executed on the OFA interface. It takes into account the input token amount ($i$), output token amount ($o$), gas used ($g$), base fee per gas ($b$), and priority fee per gas ($f$). The formula is:
+$$
+p = \frac{o}{i + g(b + f)}
+$$
 
 ### Table of Contents
 
@@ -22,15 +25,13 @@ To derive the realized price in the context of an Automated Market Maker (AMM), 
 
 #### Mathematical Structure Definition
 
-1. **Variables:**
-   - $i$: Input token amount provided by the trader.
-   - $o$: Output token amount received by the trader.
-   - $g$: Gas used for the transaction.
-   - $b$: Base fee per gas.
-   - $f$: Priority fee per gas.
+The mathematical structure for the AMM includes:
 
-2. **Parameters:**
-   - The AMM's pricing algorithm, which might be a function of the current liquidity pool state, the input and output token types, and other market conditions.
+- Input token amount ($i$): [[Realized Price Definition#Input Token|Input Token]]
+- Output token amount ($o$): [[Realized Price Definition#Output Token|Output Token]]
+- Gas used ($g$): [[Realized Price Definition#Gas Used|Gas Used]]
+- Base fee per gas ($b$): [[Realized Price Definition#Base Fee|Base Fee]]
+- Priority fee per gas ($f$): [[Realized Price Definition#Priority Fee|Priority Fee]]
 
 #### Realized Price Derivation
 
@@ -45,15 +46,15 @@ This formula calculates the effective price per input token, taking into account
 - $\frac{o}{i}$ represents the basic exchange rate offered by the AMM, ignoring transaction costs.
 - $g(b + f)$ represents the total gas cost of the transaction, converted into the input token's units.
 
-#### Derivation Steps:
+#### Derivation Steps
 
-1. **Calculate the total cost of gas in input token units:**
+1. **Calculate the total cost of gas in input token units:** [[Realized Price Definition#Gas Cost Calculation|Gas Cost Calculation]]
    - The total gas cost is the product of the gas used and the sum of the base and priority gas fees: $g \times (b + f)$.
 
-2. **Adjust the input amount by adding the gas cost:**
+2. **Adjust the input amount by adding the gas cost:** [[Realized Price Definition#Input Adjustment|Input Adjustment]]
    - The effective input amount considering the gas cost is $i + g(b + f)$.
 
-3. **Compute the realized price:**
+3. **Compute the realized price:** [[Realized Price Definition#Realized Price Computation|Realized Price Computation]]
    - The realized price is the ratio of the output token amount to the adjusted input amount: $p = \frac{o}{i + g(b + f)}$.
 
 This derivation provides a clear understanding of how transaction costs are integrated into the price calculation in an AMM setting, ensuring that the realized price reflects both the market conditions and the cost of executing the trade.
@@ -97,9 +98,9 @@ Would you like to delve deeper into how specific elements of Wuxing could be map
 
 **Reminder: The Realized Price Formula**
 
-```
-p = o / (i + g(b + f))
-```
+$$
+p = \frac{o}{i + g(b + f)}
+$$
 
 **Sheng Cycle (生)**
 
@@ -139,6 +140,7 @@ Let me know where you want to take the analysis!
 The realized price derivation, as detailed in the document "Realized Price Derivation" ([Realized Price Derivation](book/wood/Realized Price Derivation.md)), is a crucial component of the broader analysis presented across various sections of the paper. Here's how it integrates and interacts with other key concepts:
 
 #### Connection with Mathematical Formulations
+
 The formula for realized price:
 ```markdown:book/wood/Realized Price Derivation.md
 startLine: 32
@@ -155,18 +157,22 @@ is also reflected in the mathematical formulations in the README, emphasizing it
      $$p = \frac{o}{i}$$
 ```
 
-
 #### Role in Price Improvement Framework
+
 The realized price is foundational in the framework for assessing price improvements in OFAs, as outlined in [Framework for Price Improvement in OFAs](book/earth/Framework for Price Improvement in OFAs.md). It helps in comparing the actual transaction prices against baseline or counterfactual prices, which are crucial for evaluating the efficiency of different OFA systems.
 
 #### Impact on Execution Quality
+
 Understanding the realized price is essential for assessing the execution quality in OFAs ([Execution Quality in OFAs](book/fire/Execution Quality in OFAs.md)). It directly influences the primary metric of price improvement, which measures the effectiveness of trade executions in OFA systems.
 
 #### Numerical Precision and Calculations
+
 The precision in calculating the realized price is critical, as discussed in [Numerical Precision Concerns for Orderflow Auction Analysis Considerations](book/wood/Numerical Precision Concerns for Orderflow Auction Analysis Considerations.md). Accurate computation ensures reliable assessments of OFA performance and supports robust financial analysis.
 
 #### Integration with Alloy Library
+
 For developers implementing these concepts using Rust, the [Alloy library](book/metal/alloy-rs.md) provides tools for interacting with Ethereum blockchains, which can be useful for simulations and real-time calculations involving realized prices and other financial metrics.
 
+By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
 By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
 By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
