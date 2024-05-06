@@ -73,20 +73,22 @@ It's interesting to consider how Wuxing theory might provide a framework for int
 |Metal (金)|Precision, value, refinement|Priority fee per gas ($f$): [[Realized Price Definition#Priority Fee|Priority Fee]](#Priority_Fee), an additional cost to gain faster execution|
 |Water (水)|Fluidity, adaptability, flow|Gas used ($g$): [[Realized Price Definition#Gas Used|Gas Used]](#Gas), a variable cost depending on network conditions|
 
-**Analyzing the Expression through Wuxing**
+#### Wuxing Interpretation of the Realized Price Formula
 
-- **Interaction of Elements:** The formula combines these elements in a dynamic manner:
-    
-    - **Wood fuels Fire:** The input token (Wood) drives the transformation into the output token (Fire).
-    - **Metal refines Fire:** The priority fee (Metal) can shape the speed and outcome of the transformative process (Fire).
-    - **Earth supports all:** The base fee (Earth) is a fundamental platform upon which the transaction rests.
-    - **Water adapts:** The gas used (Water) reflects changing circumstances influencing the trade's flow.
-- **Generative and Controlling Cycles:** The formula can be seen to embody aspects of both the generative (生) and controlling (克) cycles of Wuxing:
-    
-    - **Generative:** Wood's expansion generates Fire's transformation.
-    - **Controlling:** Metal's precision can manage the intensity of Fire.
+The realized price formula can be interpreted through the lens of Wuxing theory as follows:
 
-**Limitations** It's important to note that Wuxing theory is primarily philosophical and symbolic. Applying it to a precise mathematical formula requires a degree of creative interpretation.
+- **Input token amount ($i$): [[Realized Price Definition#Input Token|Input Token]](#Input_Token)** represents the [[Wood (木)]] element, as it initiates the growth and expansion of the trade.
+- **Output token amount ($o$): [[Realized Price Definition#Output Token|Output Token]](#Output_Token)** corresponds to the [[Fire (火)]] element, symbolizing the transformation of the input token.
+- **Base fee per gas ($b$): [[Realized Price Definition#Base Fee|Base Fee]](#Base_Fee)** aligns with the [[Earth (土)]] element, providing a stable foundation for the transaction.
+- **Priority fee per gas ($f$): [[Realized Price Definition#Priority Fee|Priority Fee]](#Priority_Fee)** embodies the [[Metal (金)]] element, refining and optimizing the transaction speed.
+- **Gas used ($g$): [[Realized Price Definition#Gas Used|Gas Used]](#Gas)** represents the [[Water (水)]] element, adapting to the fluidity of network conditions.
+
+Within the formula, we can observe both the generative (Sheng) and controlling (Ke) cycles of Wuxing:
+
+- **Sheng Cycle**: The input token amount (Wood) generates the output token amount (Fire), facilitated by the gas used (Water).
+- **Ke Cycle**: The priority fee (Metal) and base fee (Earth) control and regulate the overall cost, influencing the realized price.
+
+This interpretation provides a philosophical lens through which we can understand the interactions and dynamics within the realized price formula, enriching our analysis with traditional wisdom.
 
 **Let's Discuss**
 

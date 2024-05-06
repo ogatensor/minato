@@ -4,7 +4,7 @@ Absolutely!  Here's a breakdown of the Counterfactual Baseline concept, mirrorin
 
 **Counterfactual Price Definition**
 
-The "counterfactual price" (`p_prime`) represents the price a swap *could have had* under different routing or gas optimization strategies. It serves as a comparison point to evaluate the price impact of actual trade executions.
+The "counterfactual price" (`p_prime`) represents the price a swap *could have had* under different routing or gas optimization strategies. It serves as a comparison point to evaluate the price impact of actual trade executions. For a comparison with actual trade executions, see [[Realized Price Definition]].
 
 **Table of Contents**
 

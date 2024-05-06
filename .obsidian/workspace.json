@@ -142,9 +142,20 @@
   },
   "active": "95b03e2d1d37efa7",
   "lastOpenFiles": [
+    "book/Wuxing Correspondence Table.md",
+    "book/metal/Counterfactual Price Generation.md",
+    "Routing API.md",
+    "Baseline Function ($B$).md",
+    "Gas Used ($g'$).md",
+    "Output Amount ($o'$).md",
+    "Input Amount ($i$).md",
+    "Metal (金).md",
+    "Earth (土).md",
+    "Water (水).md",
+    "Fire (火).md",
+    "Wood (木).md",
     "book/metal/Realized Price Derivation.md",
     "Counterfactual Price Generation.md",
-    "book/metal/Counterfactual Price Generation.md",
     "book/wood/Wuxing Equations.md",
     "Realized Price Definition.md",
     "book/wood/Realized Price Derivation.md",
@@ -157,8 +168,6 @@
     "book/metal/alloy-rs.md",
     "book/fire/Execution Quality in OFAs.md",
     "README.md",
-    "book/earth/Framework for Price Improvement in OFAs.md",
-    "book/earth/orderflow-framework.md",
-    "book/earth/x.md"
+    "book/earth/Framework for Price Improvement in OFAs.md"
   ]
 }
