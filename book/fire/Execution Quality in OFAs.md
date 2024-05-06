@@ -1,5 +1,12 @@
 ### [[Execution Quality in OFAs]]
 
+## Navigation
+- [[#Overview|Overview]]
+- [[#Price Improvement|Price Improvement]]
+- [[#Factors Affecting Price Improvement|Factors Affecting Price Improvement]]
+- [[#Comparison Across OFA Systems|Comparison Across OFA Systems]]
+- [[#Timing Considerations|Timing Considerations]]
+
 In the context of OFA systems, execution quality refers to the overall effectiveness and desirability of the trade execution experienced by users. The paper focuses on evaluating execution quality through the lens of "price improvement", which is defined as the difference between the realized price of a swap and a counterfactual baseline price.
 
 Specifically, the paper highlights a few key aspects of execution quality in OFA systems:

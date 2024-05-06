@@ -1,5 +1,11 @@
 # [[Alloy]]
 
+## Navigation
+- [[#Overview|Overview]]
+- [[#Supported Rust Versions|Supported Rust Versions]]
+- [[#Contributing|Contributing]]
+- [[#License|License]]
+
 ## Overview
 Alloy is a Rust library for interacting with Ethereum blockchains. It is a rewrite of the [ethers-rs](https://github.com/gakonst/ethers-rs) library from the ground up, with new features, high performance, and excellent documentation.
 

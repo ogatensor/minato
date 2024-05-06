@@ -1,12 +1,20 @@
 # [[Quantifying Price Improvement in Order Flow Auctions]]
 
+## Navigation
+- [[#Overview|Overview]]
+- [[#Links|Links]]
+- [[#Challenges for AMMs|Challenges for AMMs]]
+- [[#Empirical Findings|Empirical Findings]]
+- [[#Mathematical Formulations|Mathematical Formulations]]
+
 ## Overview
 This section summarizes the key points from the paper "[[Quantifying Price Improvement in Order Flow Auctions]]" by Bachu, Wan, and Moallemi.
 
-## Links 
-[[Quantifying Price Improvement in Order Flow Auctions]]
-[[Framework for Price Improvement in OFAs]]
-[[]]
+## Links
+- [[Quantifying Price Improvement in Order Flow Auctions]]
+- [[Framework for Price Improvement in OFAs]]
+- [[Execution Quality in OFAs]]
+
 ## Challenges for AMMs
 The paper identifies several challenges faced by Automated Market Makers (AMMs) on blockchain systems like Ethereum:
 
