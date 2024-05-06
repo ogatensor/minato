@@ -142,6 +142,16 @@
   },
   "active": "95b03e2d1d37efa7",
   "lastOpenFiles": [
+    "book/water/Water (水).md",
+    "book/metal/Routing API.md",
+    "book/fire/Output Amount ($o'$).md",
+    "book/metal/Metal (金).md",
+    "book/wood/Input Amount ($i$).md",
+    "book/water/Gas Used ($g'$).md",
+    "book/fire/Fire (火).md",
+    "book/earth/Earth (土).md",
+    "book/earth/Baseline Function ($B$).md",
+    "book/wood/Wuxing Correspondence Table.md",
     "book/Wuxing Correspondence Table.md",
     "book/metal/Counterfactual Price Generation.md",
     "Routing API.md",
@@ -158,16 +168,6 @@
     "Counterfactual Price Generation.md",
     "book/wood/Wuxing Equations.md",
     "Realized Price Definition.md",
-    "book/wood/Realized Price Derivation.md",
-    "book/wood/Numerical Precision Concerns for Orderflow Auction Analysis Considerations.md",
-    "parameter-linking.md",
-    "obsidian-formatting.md",
-    "formatting.md",
-    "book/wood/Derivations.md",
-    "image.png",
-    "book/metal/alloy-rs.md",
-    "book/fire/Execution Quality in OFAs.md",
-    "README.md",
-    "book/earth/Framework for Price Improvement in OFAs.md"
+    "image.png"
   ]
 }
