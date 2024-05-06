@@ -23,29 +23,29 @@ Understanding the counterfactual price requires defining the mathematical landsc
 
 The mathematical structure for the counterfactual baseline includes:
 
-* **Input token amount (`i`)**: Same as in the realized price calculation.
-* **Priority fee (`f`)**:  Same as in the realized price calculation.
-* **Settlement block time (`t`)**: Represents the time at which the trade could have hypothetically settled. This influences historical gas prices used in the baseline.
-* **Counterfactual output token amount (`o_prime`)**: The output amount of tokens the trader could have received under optimized conditions, determined by an internal baseline model.
-* **Counterfactual gas used (`g_prime`)**: The amount of gas that would have been used with optimized routing and gas strategies, determined by an internal baseline model.
+* **Input Token Amount ($i$)**: Same as in the realized price calculation.
+* **Priority Fee ($f$)**:  Same as in the realized price calculation.
+* **Settlement Block Time ($t$)**: Represents the time at which the trade could have hypothetically settled. This influences historical gas prices used in the baseline.
+* **Counterfactual Output Token Amount ($o'$)**: The output amount of tokens the trader could have received under optimized conditions, determined by an internal baseline model.
+* **Counterfactual Gas Used ($g'$)**: The amount of gas that would have been used with optimized routing and gas strategies, determined by an internal baseline model.
 
 **Counterfactual Price Derivation**
 
 The counterfactual price (`p_prime`) is derived using the following formula, similar to the realized price calculation:
 
 ```
-p_prime = o_prime / (i + g_prime + f)
+p_prime = o' / (i + g' + f)
 ```
 
 **Derivation Steps**
 
 1. **Baseline Function Simulation:**
-   * A `baseline_function(i, f, t)` is called. This function (which would be complex in a real setting) simulates the trade under historical conditions. It determines the values for `o_prime` and `g_prime`, modeling potential optimizations.
+   * A `baseline_function(i, f, t)` is called. This function (which would be complex in a real setting) simulates the trade under historical conditions. It determines the values for `o'` and `g'`, modeling potential optimizations.
 
 2. **Counterfactual Price Calculation:**
    * The counterfactual price formula is applied, substituting the outputs from the baseline model:
      ```math
-      p_prime = o_prime / (i + g_prime + f) 
+      p_prime = o' / (i + g' + f) 
       ```
 
 **Understanding Counterfactual Baseline in Context**
@@ -65,9 +65,9 @@ title: Wuxing Correspondence Table for Counterfactual Price Generation
 # Wuxing Correspondence Table
 | Parameter/Equation | Wuxing Element | Characteristics | Role |
 | --- | --- | --- | --- |
-| [[Input Amount ($i$)]] | [[Wood (木)]] | Initiation, resource input | Starts the [[baseline generation process]] |
-| [[Output Amount ($o'$)]] | [[Fire (火)]] | Transformation, result | Represents the outcome of the [[baseline process]] |
-| [[Gas Used ($g'$)]] | [[Water (水)]] | Flexibility, essential operation | Reflects the adaptability in simulating different [[network conditions]] |
+| [[Input Token Amount ($i$)]] | [[Wood (木)]] | Initiation, resource input | Starts the [[baseline generation process]] |
+| [[Counterfactual Output Token Amount ($o'$)]] | [[Fire (火)]] | Transformation, result | Represents the outcome of the [[baseline process]] |
+| [[Counterfactual Gas Used ($g'$)]] | [[Water (水)]] | Flexibility, essential operation | Reflects the adaptability in simulating different [[network conditions]] |
 | [[Baseline Function ($B$)]] | [[Earth (土)]] | Stability, foundation | Provides a stable [[baseline]] for comparison |
 | [[Routing API]] | [[Metal (金)]] | Precision, refinement | Determines the optimal route through [[liquidity pools]] |
 @endColumn
@@ -76,10 +76,10 @@ title: Wuxing Correspondence Table for Counterfactual Price Generation
 # Wuxing Interpretation
 The [[baseline generation function]] $B: (i, t) \rightarrow (o', g')$ can be interpreted as follows:
 
-- [[Wood (木)]] ([[Input Amount ($i$)]]) initiates the process, providing the fundamental resource.
+- [[Wood (木)]] ([[Input Token Amount ($i$)]]) initiates the process, providing the fundamental resource.
 - The [[Routing API]] ([[Metal (金)]]) precisely calculates the optimal path through [[liquidity pools]].
-- [[Fire (火)]] ([[Output Amount ($o'$)]]) represents the transformed result of the routing process.
-- [[Water (水)]] ([[Gas Used ($g'$)]]) adapts to different [[network conditions]] during the simulation.
+- [[Fire (火)]] ([[Counterfactual Output Token Amount ($o'$)]]) represents the transformed result of the routing process.
+- [[Water (水)]] ([[Counterfactual Gas Used ($g'$)]]) adapts to different [[network conditions]] during the simulation.
 - [[Earth (土)]] ([[Baseline Function ($B$)]]) provides a stable foundation for generating the [[counterfactual baseline]].
 @endColumn
 @endMultiColumn
