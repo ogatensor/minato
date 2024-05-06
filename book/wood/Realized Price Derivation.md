@@ -67,11 +67,11 @@ It's interesting to consider how Wuxing theory might provide a framework for int
 
 |Element|Traditional Associations|Possible Interpretation in Realized Price|
 |---|---|---|
-|Wood (木)|Growth, expansion, upward movement|Input token amount (i), as it represents the initial resource put into the trade|
-|Fire (火)|Transformation, change, energy|Output token amount (o), the result of the swap process|
-|Earth (土)|Stability, foundation, grounding|Base fee per gas (b), an underlying cost that ensures transaction processing|
-|Metal (金)|Precision, value, refinement|Priority fee per gas (f), an additional cost to gain faster execution|
-|Water (水)|Fluidity, adaptability, flow|Gas used (g), a variable cost depending on network conditions|
+|Wood (木)|Growth, expansion, upward movement|Input token amount ($i$): [[Realized Price Definition#Input Token|Input Token]](#Input_Token), as it represents the initial resource put into the trade|
+|Fire (火)|Transformation, change, energy|Output token amount ($o$): [[Realized Price Definition#Output Token|Output Token]](#Output_Token), the result of the swap process|
+|Earth (土)|Stability, foundation, grounding|Base fee per gas ($b$): [[Realized Price Definition#Base Fee|Base Fee]](#Base_Fee), an underlying cost that ensures transaction processing|
+|Metal (金)|Precision, value, refinement|Priority fee per gas ($f$): [[Realized Price Definition#Priority Fee|Priority Fee]](#Priority_Fee), an additional cost to gain faster execution|
+|Water (水)|Fluidity, adaptability, flow|Gas used ($g$): [[Realized Price Definition#Gas Used|Gas Used]](#Gas), a variable cost depending on network conditions|
 
 **Analyzing the Expression through Wuxing**
 
@@ -102,31 +102,31 @@ $$
 p = \frac{o}{i + g(b + f)}
 $$
 
-**Sheng Cycle (生)**
+**Sheng Cycle (#Sheng_Cycle)**
 
-The Sheng cycle represents a relationship where one element nourishes or supports the growth of another. Here's how we could see this within the formula:
+The Sheng cycle (#Sheng_Cycle) represents a relationship where one element nourishes or supports the growth of another. Here's how we could see this within the formula:
 
-- **Input Token (i) generates Output Token (o):** The core function of the AMM is to transform the input token into the output token. Larger values of 'i' drive a larger 'o', even if not proportionally. This reflects a generative relationship.
-- **Gas (g) facilitating the process:** While gas represents a cost, it's essential for the transaction to occur. Without gas, the swap from input to output tokens could not take place. In a way, it fuels the process.
+- **Input token amount ($i$): [[Realized Price Definition#Input Token|Input Token]](#Input_Token) generates Output token amount ($o$): [[Realized Price Definition#Output Token|Output Token]](#Output_Token):** The core function of the AMM is to transform the input token into the output token. Larger values of 'i' drive a larger 'o', even if not proportionally. This reflects a generative relationship.
+- **Gas used ($g$): [[Realized Price Definition#Gas Used|Gas Used]](#Gas) facilitating the process:** While gas represents a cost, it's essential for the transaction to occur. Without gas, the swap from input to output tokens could not take place. In a way, it fuels the process.
 
-**Ke Cycle (克)**
+**Ke Cycle (#Ke_Cycle)**
 
-The Ke cycle embodies a controlling or regulating relationship. We can identify this dynamic within the formula:
+The Ke cycle (#Ke_Cycle) embodies a controlling or regulating relationship. We can identify this dynamic within the formula:
 
-- **Base Fee (b) and Priority Fee (f) controlling cost:** These fees directly impact the denominator. Larger fees (especially with higher gas usage) reduce the realized price 'p'. This shows a controlling influence on the overall outcome.
-- **Output Token (o) inversely related to cost:** While not explicitly within the cost portion of the formula, the concept of the realized price highlights that a higher output 'o' has a mitigating effect against the transaction costs to some degree.
+- **Base fee per gas ($b$): [[Realized Price Definition#Base Fee|Base Fee]](#Base_Fee) and Priority fee per gas ($f$): [[Realized Price Definition#Priority Fee|Priority Fee]](#Priority_Fee) controlling cost:** These fees directly impact the denominator. Larger fees (especially with higher gas usage) reduce the realized price 'p'. This shows a controlling influence on the overall outcome.
+- **Output token amount ($o$): [[Realized Price Definition#Output Token|Output Token]](#Output_Token) inversely related to cost:** While not explicitly within the cost portion of the formula, the concept of the realized price highlights that a higher output 'o' has a mitigating effect against the transaction costs to some degree.
 
-**Mathematical Properties and Wuxing**
+**Mathematical Properties and [[Wuxing]](#Wuxing)**
 
 Here's where it gets even more interesting:
 
-- **Division as Ke:** The act of division itself could be seen as a form of control. The numerator (output) is constrained by the denominator (input + costs).
-- **Asymptotic Behavior:** Rational expressions often exhibit asymptotic behavior. If transaction costs increase dramatically, the realized price will approach a limit dictated by those costs. This reflects a strong controlling influence on potential gains.
+- **Division as Ke (#Division_as_Ke):** The act of division itself could be seen as a form of control. The numerator (output) is constrained by the denominator (input + costs).
+- **Asymptotic Behavior (#Asymptotic_Behavior):** Rational expressions often exhibit asymptotic behavior. If transaction costs increase dramatically, the realized price will approach a limit dictated by those costs. This reflects a strong controlling influence on potential gains.
 
 **Important Notes:**
 
-- **Dynamic Interaction:** The variables are not fixed; they change in relation to market conditions and trader choices. Thus, the Sheng and Ke relationships continually shift.
-- **Multiple Interpretations:** Depending on your focus, you might see other potential Sheng and Ke relationships within the structure of the formula.
+- **Dynamic Interaction (#Dynamic_Interaction):** The variables are not fixed; they change in relation to market conditions and trader choices. Thus, the Sheng and Ke relationships continually shift.
+- **Multiple Interpretations (#Multiple_Interpretations):** Depending on your focus, you might see other potential Sheng and Ke relationships within the structure of the formula.
 
 **Let's continue! Would you like to...**
 
@@ -173,6 +173,5 @@ The precision in calculating the realized price is critical, as discussed in [Nu
 
 For developers implementing these concepts using Rust, the [Alloy library](book/metal/alloy-rs.md) provides tools for interacting with Ethereum blockchains, which can be useful for simulations and real-time calculations involving realized prices and other financial metrics.
 
-By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
 By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
 By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
