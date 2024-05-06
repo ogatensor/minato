@@ -149,6 +149,8 @@
   },
   "active": "c6c52ad2a39ae383",
   "lastOpenFiles": [
+    "book/fire/Counterfactual Analysis.md",
+    "book/fire/Counterfactual Similarity Analysis",
     "book/water/Routing Efficiency ($/pi_{routing}$).md",
     "book/water/Routing Efficiency ($/pi_{routing}$) 4.md",
     "book/water/Routing Efficiency ($/pi_{routing}$) 3.md",
@@ -181,10 +183,8 @@
     "book/metal/Routing API.md",
     "book/metal/Counterfactual Price Generation.md",
     "Counterfactual Gas Used ($g'$).md",
-    "Counterfactual Output Token Amount ($o'$).md",
     "Gas Optimization ($",
     "Routing Efficiency ($",
-    "minato/src/api/uniswap_api.rs",
     "book/misc/image.png",
     "book/image.png",
     "image.png"
