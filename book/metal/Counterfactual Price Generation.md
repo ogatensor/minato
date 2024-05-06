@@ -59,7 +59,6 @@ p_prime = o_prime / (i + g_prime + f)
 * How the `baseline_function` could be constructed or the types of optimizations it might simulate.
 * Use cases for counterfactual price analysis within a trading system. 
 
-```ad-note
 title: Wuxing Correspondence Table for Counterfactual Price Generation
 
 | Parameter/Equation | Wuxing Element | Characteristics | Role |
@@ -69,9 +68,7 @@ title: Wuxing Correspondence Table for Counterfactual Price Generation
 | [[Gas Used ($g'$)]] | [[Water (水)]] | Flexibility, essential operation | Reflects the adaptability in simulating different [[network conditions]] |
 | [[Baseline Function ($B$)]] | [[Earth (土)]] | Stability, foundation | Provides a stable [[baseline]] for comparison |
 | [[Routing API]] | [[Metal (金)]] | Precision, refinement | Determines the optimal route through [[liquidity pools]] |
-```
 
-```ad-note
 title: Wuxing Interpretation of Baseline Generation Function
 The [[baseline generation function]] $B: (i, t) \rightarrow (o', g')$ can be interpreted as follows:
 
@@ -80,4 +77,3 @@ The [[baseline generation function]] $B: (i, t) \rightarrow (o', g')$ can be int
 - [[Fire (火)]] ([[Output Amount ($o'$)]]) represents the transformed result of the routing process.
 - [[Water (水)]] ([[Gas Used ($g'$)]]) adapts to different [[network conditions]] during the simulation.
 - [[Earth (土)]] ([[Baseline Function ($B$)]]) provides a stable foundation for generating the [[counterfactual baseline]].
-```
