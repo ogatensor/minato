@@ -4,10 +4,13 @@ Defining the "realized price" ($p$):
 This is the actual price at which the swap was executed on the OFA interface. It takes into account the input token amount ($i$), output token amount ($o$), gas used ($g$), base fee per gas ($b$), and priority fee per gas ($f$). The formula is: $p = o / (i + g(b + f))$
 
 ## Table of Contents
-- [Mathematical Derivation](#mathematical-derivation)
-- [Mathematical Structure Definition](#mathematical-structure-definition)
-- [Realized Price Derivation](#realized-price-derivation)
-- [Derivation Steps](#derivation-steps)
+- [[#Realized Price Definition|Realized Price Definition]]
+- [[#Mathematical Derivation|Mathematical Derivation]]
+- [[#Mathematical Structure Definition|Mathematical Structure Definition]]
+- [[#Realized Price Derivation|Realized Price Derivation]]
+- [[#Derivation Steps|Derivation Steps]]
+- [[#Dialogues & Analysis|Dialogues & Analysis]]
+- [[#Understanding Realized Price Derivation in Context|Understanding Realized Price Derivation in Context]]
 
 ## Mathematical Derivation
 
@@ -84,8 +87,9 @@ It's interesting to consider how Wuxing theory might provide a framework for int
 
 Would you like to delve deeper into how specific elements of Wuxing could be mapped onto the formula, or consider potential ways to refine the analogy?
 
+[[#Dialogues & Analysis|Dialogues & Analysis]]
 
-Absolutely! Let's analyze the parameters within the realized price rational expression in terms of the Sheng (generating) and Ke (controlling) cycles of Wuxing theory.
+**Absolutely! Let's analyze the parameters within the realized price rational expression in terms of the Sheng (generating) and Ke (controlling) cycles of Wuxing theory.**
 
 **Reminder: The Realized Price Formula**
 
@@ -160,4 +164,5 @@ The precision in calculating the realized price is critical, as discussed in [Nu
 ### Integration with Alloy Library
 For developers implementing these concepts using Rust, the [Alloy library](book/metal/alloy-rs.md) provides tools for interacting with Ethereum blockchains, which can be useful for simulations and real-time calculations involving realized prices and other financial metrics.
 
+By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
 By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
