@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alloy-provider.md",
+                "file": "book/metal/alloy-rs.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alloy-provider.md",
+                "file": "book/metal/alloy-rs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alloy-provider.md",
+                "file": "book/metal/alloy-rs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alloy-provider.md"
+                "file": "book/metal/alloy-rs.md"
               }
             }
           }
@@ -149,42 +149,42 @@
   },
   "active": "c6c52ad2a39ae383",
   "lastOpenFiles": [
+    "book/water/Routing Efficiency ($/pi_{routing}$).md",
+    "book/water/Routing Efficiency ($/pi_{routing}$) 4.md",
+    "book/water/Routing Efficiency ($/pi_{routing}$) 3.md",
+    "book/water/Routing Efficiency ($/pi_{routing}$) 2.md",
+    "book/water/Routing Efficiency ($/pi_{routing}$) 1.md",
+    "book/water/Routing Efficiency ($",
+    "book/water/Priority Fee per Gas ($f$).md",
+    "book/water/Counterfactual Output Token Amount ($o'$).md",
+    "book/water/Realized Price Definition.md",
+    "book/water/Output Token Amount ($o$).md",
+    "book/water/Tenderly Simulator.md",
+    "book/water/Counterfactual Gas Used ($g'$).md",
+    "book/water/Gas Optimization ($/pi_{gas}$).md",
+    "book/water/Gas Optimization ($",
+    "book/water/Gas Used ($g$).md",
+    "book/water/Input Token Amount ($i$).md",
+    "book/water/Uniswap Routing API.md",
+    "book/metal/Base Fee per Gas ($b$).md",
+    "book/metal/Attribution Model.md",
+    "alloy-provider.md",
+    "book/water/alloy-provider.md",
     "minato/src/utils/transaction_parameters.rs",
     "minato/src/models/counterfactual_baseline.rs",
     "minato/src/models/transaction_parameters.rs",
     "minato/src/models/price_calculator.rs",
     "minato/src/utils/common.rs",
     "book/metal/alloy-rs.md",
-    "alloy-provider.md",
     "book/wood/Numerical Precision Concerns for Orderflow Auction Analysis Considerations.md",
     "Uniswap Routing API.md",
     "book/metal/Routing API.md",
     "book/metal/Counterfactual Price Generation.md",
     "Counterfactual Gas Used ($g'$).md",
     "Counterfactual Output Token Amount ($o'$).md",
-    "book/water/Gas Used ($g'$).md",
-    "book/water/Water (水).md",
-    "Routing Efficiency ($/pi_{routing}$) 1.md",
-    "Routing Efficiency ($/pi_{routing}$).md",
-    "Realized Price Definition.md",
-    "book/wood/Wuxing Correspondence Table.md",
-    "Gas Optimization ($/pi_{gas}$).md",
     "Gas Optimization ($",
-    "Routing Efficiency ($/pi_{routing}$) 4.md",
-    "Routing Efficiency ($/pi_{routing}$) 3.md",
-    "Routing Efficiency ($/pi_{routing}$) 2.md",
     "Routing Efficiency ($",
-    "Gas Used ($g$).md",
-    "Priority Fee per Gas ($f$).md",
-    "Base Fee per Gas ($b$).md",
-    "Output Token Amount ($o$).md",
-    "Input Token Amount ($i$).md",
     "minato/src/api/uniswap_api.rs",
-    "minato/src/services/mod.rs",
-    "minato/src/services",
-    "minato/src/utils/mod.rs",
-    "book/earth/Framework for Price Improvement in OFAs.md",
-    "Tenderly Simulator.md",
     "book/misc/image.png",
     "book/image.png",
     "image.png"
