@@ -108,26 +108,26 @@ $$\rho(p; p', \Delta t) = \frac{p - p'(\Delta t)}{p'(\Delta t)}$$
 Where $\Delta t$ is the time offset from the settlement time. This allows for the evaluation of price improvement at different time points relative to the settlement, capturing the impact of execution speed and timing differences between OFA systems.
 
 3. **Price Improvement Attribution**:
-   - $$\pi = \pi_\{{routing}\} + \pi_\{{gas}\} + \pi_\{{fee}$$\}
+   - $$\pi = \pi_{routing} + \pi_{gas} + \pi_{fee}$$
    - Where:
-     - $\pi_\{{routing}$\} represents PI from routing optimization
-     - $\pi_\{{gas}$\} represents PI from gas optimization
-     - $\pi_\{{fee}$\} represents PI from priority fee optimization
+     - $\pi_{routing}$ represents PI from routing optimization
+     - $\pi_{gas}$ represents PI from gas optimization
+     - $\pi_{fee}$ represents PI from priority fee optimization
 The paper proposes a model to attribute the price improvement ($\pi$) into three components:
 
-$$\pi = \pi_\{{routing}\} + \pi_\{{gas}\} + \pi_\{{fee}$$\}
+$$\pi = \pi_{routing} + \pi_{gas} + \pi_{fee}$$
 
 Where:
 
-1. $\pi_\{{routing}$\} represents the price improvement through optimizing liquidity access. This captures the benefits of including more liquidity sources in the routing compared to the baseline.
+1. $\pi_{routing}$ represents the price improvement through optimizing liquidity access. This captures the benefits of including more liquidity sources in the routing compared to the baseline.
 
-2. $\pi_\{{gas}$\} captures the savings from reduced gas costs compared to the baseline. This reflects the trade-off between accessing sufficient liquidity and managing the transaction's cost-effectiveness.
+2. $\pi_{gas}$ captures the savings from reduced gas costs compared to the baseline. This reflects the trade-off between accessing sufficient liquidity and managing the transaction's cost-effectiveness.
 
-3. $\pi_\{{fee}$\} accounts for the impact of different priority fee settings compared to the baseline. Higher priority fees can offset the gains made through efficient trading and routing strategies.
+3. $\pi_{fee}$ accounts for the impact of different priority fee settings compared to the baseline. Higher priority fees can offset the gains made through efficient trading and routing strategies.
 
 To compute these attribution components, the paper uses a Taylor series expansion of the price function $p(x)$ around the baseline $x'$:
 
-$$\pi = \left. \frac{\partial p}{\partial o}\right| _\{{o',g',f'}\} \cdot \frac{o - o'}{p'} + \left. \frac{\partial p}{\partial g}\right| _\{{o',g',f'}\} \cdot \frac{g - g'}{p'} + \left. \frac{\partial p}{\partial f}\right| _\{{o',g',f'}\} \cdot \frac{f - f'}{p'} + R(x, x')$$
+$$\pi = \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'} + \left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'} + \left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'} + R(x, x')$$
 
 Where $R(x, x')$ represents the remainder term in the Taylor expansion.
 
@@ -138,7 +138,7 @@ The authors apply this attribution model to the empirical analysis of the 1Inch 
 4. **PI Attribution Model**:
    - Using a Taylor series expansion:
 
-     $$\pi = \left. \frac{\partial p}{\partial o}\right| _\{{o',g',f'}\} \cdot \frac{o - o'}{p'} + \left. \frac{\partial p}{\partial g}\right| _\{{o',g',f'}\} \cdot \frac{g - g'}{p'} + \left. \frac{\partial p}{\partial f}\right| _\{{o',g',f'}\} \cdot \frac{f - f'}{p'} + R(x, x')$$
+     $$\pi = \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'} + \left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'} + \left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'} + R(x, x')$$
 
      - Where $R(x, x')$ is the remainder term
 
@@ -157,17 +157,17 @@ Where $p'$ is the baseline or counterfactual price.
 
 To attribute the price improvement $\pi$, the paper proposes a Taylor series expansion of the price function $p(x)$ around the baseline $x'$:
 
-$$\pi = \left. \frac{\partial p}{\partial o}\right| _\{{o',g',f'}\} \cdot \frac{o - o'}{p'} + \left. \frac{\partial p}{\partial g}\right| _\{{o',g',f'}\} \cdot \frac{g - g'}{p'} + \left. \frac{\partial p}{\partial f}\right| _\{{o',g',f'}\} \cdot \frac{f - f'}{p'} + R(x, x')$$
+$$\pi = \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'} + \left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'} + \left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'} + R(x, x')$$
 
 Where:
-- $ \left. \frac{\partial p}{\partial o}\right| _\{{o',g',f'}\} \cdot \frac{o - o'}{p'}$ represents the price improvement due to routing optimization ($\pi_\{{routing}$)\}
-- $ \left. \frac{\partial p}{\partial g}\right| _\{{o',g',f'}\} \cdot \frac{g - g'}{p'}$ represents the price improvement due to gas optimization ($\pi_\{{gas}$)\} 
-- $ \left. \frac{\partial p}{\partial f}\right| _\{{o',g',f'}\} \cdot \frac{f - f'}{p'}$ represents the price improvement due to priority fee optimization ($\pi_\{{fee}$)\}
+- $ \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'}$ represents the price improvement due to routing optimization ($\pi_{routing}$)
+- $ \left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'}$ represents the price improvement due to gas optimization ($\pi_{gas}$) 
+- $ \left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'}$ represents the price improvement due to priority fee optimization ($\pi_{fee}$)
 - $ R(x, x')$ is the remainder term
 
 The paper then aggregates these components to obtain the overall price improvement:
 
-$$\pi = \pi_\{{routing}\} + \pi_\{{gas}\} + \pi_\{{fee}\} + \pi_\{{remainder}$$\}
+$$\pi = \pi_{routing} + \pi_{gas} + \pi_{fee} + \pi_{remainder}$$
 
 This attribution model allows the authors to quantify the relative contributions of routing, gas, and priority fee decisions to the overall price improvement achieved by different OFA systems. By breaking down the price improvement in this way, the paper aims to provide OFA implementers with direct insights into how they can optimize their systems to improve trading outcomes for users.
 
@@ -192,14 +192,14 @@ This time-dependent price improvement metric is particularly useful for comparin
 By incorporating the time dimension, the paper's framework provides a more comprehensive evaluation of the OFA systems' performance, going beyond just the price improvement at the settlement time and considering the dynamic nature of the trading environment.
 
 6. **Baseline Generation**:
-   - $$B: (i, t) \righta rrow (o', g')$$
+   - $$B: (i, t) \rightarrow (o', g')$$
    - Where $B$ is the baseline function that maps input amount $i$ and time $t$ to the counterfactual output amount $o'$ and gas used $g'$
 The paper describes the process of generating the baseline for comparison against the OFA systems as follows:
 
 Baseline Function $B$:
 The baseline is generated using the Uniswap Classic routing API and the Tenderly simulator. Specifically, the baseline function $B$ maps the input amount $i$ and the settlement block time $t$ to the counterfactual baseline output amount $o'$ and gas used $g'$:
 
-$$B: (i, t) \righta rrow (o', g')$$
+$$B: (i, t) \rightarrow (o', g')$$
 
 The steps involved in generating the baseline are:
 
