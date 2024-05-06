@@ -138,13 +138,14 @@ This attribution model allows the paper to quantify how much of the overall pric
 The authors apply this attribution model to the empirical analysis of the 1Inch and Uniswap interfaces, demonstrating how it can be used to compare and optimize the performance of different OFA systems.
 
 4. **PI Attribution Model**:
-   - Using a Taylor series expansion:
+Using a Taylor series expansion:
 
 $$ 
 \pi = \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'} + \left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'} + \left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'} + R(x, x')
 $$
 
-     - Where $R(x, x')$ is the remainder term
+
+Where $R(x, x')$ is the remainder term
 
 The paper's PI attribution model is described as follows:
 
