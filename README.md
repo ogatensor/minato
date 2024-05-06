@@ -6,7 +6,8 @@
 - [[#Links|Links]]
 - [[#Challenges for AMMs|Challenges for AMMs]]
 - [[#Empirical Findings|Empirical Findings]]
-- [[#Mathematical Formulations|Mathematical Formulations]] d
+- [[#Mathematical Formulations|Mathematical Formulations]]
+- [[#Wuxing Correspondence Table|Wuxing Correspondence Table]]
 
 ## Overview
 This section summarizes the key points from the paper "[[Quantifying Price Improvement in Order Flow Auctions]]" by Bachu, Wan, and Moallemi.
@@ -229,3 +230,18 @@ This baseline generation process ensures that the counterfactual price $p'$ is c
 The paper notes that this baseline is chosen because the Uniswap Classic routing API aggregates a significant portion of the total on-chain liquidity, and it underpins the Uniswap interface, which is a major trading platform.
 
 These mathematical formulations provide the foundation for the framework described in the paper to evaluate and compare the price improvement performance of different OFA systems.
+
+### Wuxing Correspondence Table
+The realized price formula can be interpreted through the lens of Wuxing theory as follows:
+
+- **Routing Efficiency ($\pi_{routing}$)** - Wood (木)
+- **Gas Optimization ($\pi_{gas}$)** - Fire (火)
+- **Priority Fee Optimization ($\pi_{fee}$)** - Metal (金)
+
+The baseline generation function can be interpreted through the lens of Wuxing theory as follows:
+
+- **Optimal Route Calculation** - Wood (木)
+- **Gas Cost Estimation** - Fire (火)
+- **Simulation** - Water (水)
+
+These mappings can be added to the Obsidian documentation to provide a comprehensive view of how traditional Wuxing elements are integrated into various financial metrics and formulas across the codebase. This approach not only aids in understanding the mathematical models but also enriches them with philosophical insights, making the analysis more robust and multidimensional.
