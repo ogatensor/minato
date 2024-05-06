@@ -59,34 +59,25 @@ p_prime = o_prime / (i + g_prime + f)
 * How the `baseline_function` could be constructed or the types of optimizations it might simulate.
 * Use cases for counterfactual price analysis within a trading system. 
 
-Here's a Wuxing correspondence table for the counterfactual price generation parameters and equation:
-
-| Parameter/Equation | Wuxing Element | Characteristics | Role |
-| --- | --- | --- | --- |
-| Input Amount ($i$) | Wood (木) | Initiation, resource input | Starts the baseline generation process |
-| Output Amount ($o'$) | Fire (火) | Transformation, result | Represents the outcome of the baseline process |
-| Gas Used ($g'$) | Water (水) | Flexibility, essential operation | Reflects the adaptability in simulating different network conditions |
-| Baseline Function ($B$) | Earth (土) | Stability, foundation | Provides a stable baseline for comparison |
-| Routing API | Metal (金) | Precision, refinement | Determines the optimal route through liquidity pools |
-
-The baseline generation function $B: (i, t) \rightarrow (o', g')$ can be interpreted as follows:
-
-- Wood (Input Amount $i$) initiates the process, providing the fundamental resource.
-- The Routing API (Metal) precisely calculates the optimal path through liquidity pools.
-- Fire (Output Amount $o'$) represents the transformed result of the routing process.
-- Water (Gas Used $g'$) adapts to different network conditions during the simulation.
-- Earth (Baseline Function $B$) provides a stable foundation for generating the counterfactual baseline.
-
-This mapping allows us to understand the counterfactual price generation process through the lens of Wuxing elements, where each component plays a distinct role in the overall system.
-
 ```ad-note
 title: Wuxing Correspondence Table for Counterfactual Price Generation
 
 | Parameter/Equation | Wuxing Element | Characteristics | Role |
 | --- | --- | --- | --- |
-| Input Amount ($i$) | Wood (木) | Initiation, resource input | Starts the baseline generation process |
-| Output Amount ($o'$) | Fire (火) | Transformation, result | Represents the outcome of the baseline process |
-| Gas Used ($g'$) | Water (水) | Flexibility, essential operation | Reflects the adaptability in simulating different network conditions |
-| Baseline Function ($B$) | Earth (土) | Stability, foundation | Provides a stable baseline for comparison |
-| Routing API | Metal (金) | Precision, refinement | Determines the optimal route through liquidity pools |
+| [[Input Amount ($i$)]] | [[Wood (木)]] | Initiation, resource input | Starts the [[baseline generation process]] |
+| [[Output Amount ($o'$)]] | [[Fire (火)]] | Transformation, result | Represents the outcome of the [[baseline process]] |
+| [[Gas Used ($g'$)]] | [[Water (水)]] | Flexibility, essential operation | Reflects the adaptability in simulating different [[network conditions]] |
+| [[Baseline Function ($B$)]] | [[Earth (土)]] | Stability, foundation | Provides a stable [[baseline]] for comparison |
+| [[Routing API]] | [[Metal (金)]] | Precision, refinement | Determines the optimal route through [[liquidity pools]] |
+```
+
+```ad-note
+title: Wuxing Interpretation of Baseline Generation Function
+The [[baseline generation function]] $B: (i, t) \rightarrow (o', g')$ can be interpreted as follows:
+
+- [[Wood (木)]] ([[Input Amount ($i$)]]) initiates the process, providing the fundamental resource.
+- The [[Routing API]] ([[Metal (金)]]) precisely calculates the optimal path through [[liquidity pools]].
+- [[Fire (火)]] ([[Output Amount ($o'$)]]) represents the transformed result of the routing process.
+- [[Water (水)]] ([[Gas Used ($g'$)]]) adapts to different [[network conditions]] during the simulation.
+- [[Earth (土)]] ([[Baseline Function ($B$)]]) provides a stable foundation for generating the [[counterfactual baseline]].
 ```
