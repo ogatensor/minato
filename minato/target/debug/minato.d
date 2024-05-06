@@ -1,0 +1,1 @@
+/Users/andrewowens/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/OFA/minato/target/debug/minato: /Users/andrewowens/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/OFA/minato/src/main.rs
