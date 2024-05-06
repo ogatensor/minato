@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f7406149edf035ee",
+        "id": "859cefd5845a1e14",
         "type": "tabs",
         "children": [
           {
-            "id": "95b03e2d1d37efa7",
+            "id": "c6c52ad2a39ae383",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "alloy-provider.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -83,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "alloy-provider.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "alloy-provider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "alloy-provider.md"
+              }
             }
           }
         ]
@@ -140,37 +147,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "95b03e2d1d37efa7",
+  "active": "c6c52ad2a39ae383",
   "lastOpenFiles": [
-    "book/earth/Framework for Price Improvement in OFAs.md",
+    "minato/src/utils/transaction_parameters.rs",
+    "minato/src/models/counterfactual_baseline.rs",
+    "minato/src/models/transaction_parameters.rs",
+    "minato/src/models/price_calculator.rs",
+    "minato/src/utils/common.rs",
+    "book/metal/alloy-rs.md",
+    "alloy-provider.md",
+    "book/wood/Numerical Precision Concerns for Orderflow Auction Analysis Considerations.md",
     "Uniswap Routing API.md",
-    "Tenderly Simulator.md",
-    "Attribution Model.md",
-    "book/misc/image.png",
-    "book/misc/obsidian-formatting.md",
-    "book/misc",
-    "book/obsidian-formatting.md",
-    "book/image.png",
-    "book/wood/Wood (木).md",
-    "book/water/Water (水).md",
     "book/metal/Routing API.md",
-    "book/fire/Output Amount ($o'$).md",
-    "book/metal/Metal (金).md",
-    "book/wood/Input Amount ($i$).md",
-    "book/water/Gas Used ($g'$).md",
-    "book/fire/Fire (火).md",
-    "book/earth/Earth (土).md",
-    "book/earth/Baseline Function ($B$).md",
-    "book/wood/Wuxing Correspondence Table.md",
-    "book/Wuxing Correspondence Table.md",
     "book/metal/Counterfactual Price Generation.md",
-    "Routing API.md",
-    "Baseline Function ($B$).md",
-    "Gas Used ($g'$).md",
-    "Output Amount ($o'$).md",
-    "Input Amount ($i$).md",
-    "Metal (金).md",
-    "Earth (土).md",
+    "Counterfactual Gas Used ($g'$).md",
+    "Counterfactual Output Token Amount ($o'$).md",
+    "book/water/Gas Used ($g'$).md",
+    "book/water/Water (水).md",
+    "Routing Efficiency ($/pi_{routing}$) 1.md",
+    "Routing Efficiency ($/pi_{routing}$).md",
+    "Realized Price Definition.md",
+    "book/wood/Wuxing Correspondence Table.md",
+    "Gas Optimization ($/pi_{gas}$).md",
+    "Gas Optimization ($",
+    "Routing Efficiency ($/pi_{routing}$) 4.md",
+    "Routing Efficiency ($/pi_{routing}$) 3.md",
+    "Routing Efficiency ($/pi_{routing}$) 2.md",
+    "Routing Efficiency ($",
+    "Gas Used ($g$).md",
+    "Priority Fee per Gas ($f$).md",
+    "Base Fee per Gas ($b$).md",
+    "Output Token Amount ($o$).md",
+    "Input Token Amount ($i$).md",
+    "minato/src/api/uniswap_api.rs",
+    "minato/src/services/mod.rs",
+    "minato/src/services",
+    "minato/src/utils/mod.rs",
+    "book/earth/Framework for Price Improvement in OFAs.md",
+    "Tenderly Simulator.md",
+    "book/misc/image.png",
+    "book/image.png",
     "image.png"
   ]
 }

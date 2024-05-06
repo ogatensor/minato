@@ -1,20 +1,18 @@
-# Wuxing Correspondence Table
-
 ## Elemental Mappings
 
-| Parameter/Equation | Wuxing Element | Characteristics | Role |
-| --- | --- | --- | --- |
-| [[Input Token Amount ($i$)]] | [[Wood (木)]] | Growth, expansion, upward movement | Represents the initial resource put into the trade |
-| [[Output Token Amount ($o$)]] | [[Fire (火)]] | Transformation, change, energy | The result of the swap process |
-| [[Base Fee per Gas ($b$)]] | [[Earth (土)]] | Stability, foundation, nourishment | Provides a stable foundation for the transaction |
-| [[Priority Fee per Gas ($f$)]] | [[Metal (金)]] | Precision, value, speed | Refines and optimizes the transaction speed |
-| [[Gas Used ($g$)]] | [[Water (水)]] | Adaptability, flow, minimization | Adapts to the fluidity of network conditions |
-| [[Routing Efficiency ($\pi_{routing}$)]] | [[Wood (木)]] | Growth, expansion, optimization | Enhances the efficiency of routing to maximize output |
-| [[Gas Optimization ($\pi_{gas}$)]] | [[Water (水)]] | Adaptability, flow, minimization | Reduces gas costs, adapting to network conditions |
-| [[Priority Fee Optimization ($\pi_{fee}$)]] | [[Metal (金)]] | Precision, value, speed | Adjusts fees to optimize transaction speed |
-| [[Price Improvement ($\pi$)]] | [[Wood (木)]] | Growth, expansion, optimization | Represents the overall improvement in price |
-| [[Baseline Generation Function ($b_g$)]] | [[Earth (土)]] | Stability, foundation, nourishment | Provides a stable foundation for the baseline price |
-| [[Taylor Series Expansion for Price Improvement Attribution]] | [[Fire (火)]] | Transformation, change, energy | Represents the transformation of the baseline price into the realized price |
+| Parameter/Equation                                            | Wuxing Element | Characteristics                    | Role                                                                        |
+| ------------------------------------------------------------- | -------------- | ---------------------------------- | --------------------------------------------------------------------------- |
+| [[Input Token Amount ($i$)]]                                  | [[Wood (木)]]   | Growth, expansion, upward movement | Represents the initial resource put into the trade                          |
+| [[Output Token Amount ($o$)]]                                 | [[Fire (火)]]   | Transformation, change, energy     | The result of the swap process                                              |
+| [[Base Fee per Gas ($b$)]]                                    | [[Earth (土)]]  | Stability, foundation, nourishment | Provides a stable foundation for the transaction                            |
+| [[Priority Fee per Gas ($f$)]]                                | [[Metal (金)]]  | Precision, value, speed            | Refines and optimizes the transaction speed                                 |
+| [[Gas Used ($g$)]]                                            | [[Water (水)]]  | Adaptability, flow, minimization   | Adapts to the fluidity of network conditions                                |
+| [[Routing Efficiency ($\pi_{routing}$)]]                      | [[Wood (木)]]   | Growth, expansion, optimization    | Enhances the efficiency of routing to maximize output                       |
+| [[Gas Optimization ($\pi_{gas}$)]]                            | [[Water (水)]]  | Adaptability, flow, minimization   | Reduces gas costs, adapting to network conditions                           |
+| [[Priority Fee Optimization ($\pi_{fee}$)]]                   | [[Metal (金)]]  | Precision, value, speed            | Adjusts fees to optimize transaction speed                                  |
+| [[Price Improvement ($\pi$)]]                                 | [[Wood (木)]]   | Growth, expansion, optimization    | Represents the overall improvement in price                                 |
+| [[Baseline Generation Function ($b_g$)]]                      | [[Earth (土)]]  | Stability, foundation, nourishment | Provides a stable foundation for the baseline price                         |
+| [[Taylor Series Expansion for Price Improvement Attribution]] | [[Fire (火)]]   | Transformation, change, energy     | Represents the transformation of the baseline price into the realized price |
 
 ## Wuxing Interpretation of Formulas/Processes
 
