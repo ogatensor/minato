@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cf311e151b8afad8",
+        "id": "f7406149edf035ee",
         "type": "tabs",
         "children": [
           {
-            "id": "bf3dd850f44ad49d",
+            "id": "95b03e2d1d37efa7",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -139,16 +139,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf3dd850f44ad49d",
+  "active": "95b03e2d1d37efa7",
   "lastOpenFiles": [
+    "book/wood/Wuxing Equations.md",
+    "book/wood/Realized Price Derivation.md",
+    "Realized Price Definition.md",
+    "book/wood/Numerical Precision Concerns for Orderflow Auction Analysis Considerations.md",
     "parameter-linking.md",
     "obsidian-formatting.md",
     "formatting.md",
-    "book/wood/Realized Price Derivation.md",
     "book/wood/Derivations.md",
     "image.png",
     "book/metal/alloy-rs.md",
-    "book/wood/Numerical Precision Concerns for Orderflow Auction Analysis Considerations.md",
     "book/fire/Execution Quality in OFAs.md",
     "README.md",
     "book/earth/Framework for Price Improvement in OFAs.md",
