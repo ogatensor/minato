@@ -3,10 +3,14 @@
 ## Overview
 This section summarizes the key points from the paper "[[Quantifying Price Improvement in Order Flow Auctions]]" by Bachu, Wan, and Moallemi.
 
+## Links 
+[[Quantifying Price Improvement in Order Flow Auctions]]
+[[Framework for Price Improvement in OFAs]]
+[[]]
 ## Challenges for AMMs
 The paper identifies several challenges faced by Automated Market Makers (AMMs) on blockchain systems like Ethereum:
 
-1. **Fragmented Liquidity**: AMMs encounter issues with [[Fragmented Liquidity]]
+1. **[[Fragmented Liquidity]]**: AMMs encounter issues with [[Fragmented Liquidity]]
 2. **Susceptibility to Adversarial Strategies**: AMMs are susceptible to [[Adversarial Strategies]] that can extract value from the system.
 3. **Unpredictable Trade Executions**: AMM [[Unpredictable Trade Executions]] can be unpredictable.
 
@@ -19,17 +23,6 @@ The methodology was applied to historical data from OFA interfaces like [[1Inch]
 
 2. **Attribution Findings**: The majority of price improvements on both 1Inch and Uniswap interfaces are achieved through better routing and access to additional liquidity sources. OFAs like 1Inch Fusion and UniswapX show a small but non-zero amount of gas overhead compared to traditional AMMs like Uniswap Classic, translating to 0.5-1 basis points of degradation. The interaction between gas efficiency and priority fee savings also contributes a decent amount to the overall price improvements.
 3. **Comparison Findings**: At the interface level, the Uniswap interface provides significantly higher price improvements than the 1Inch interface, except for a few blocks prior to settlement. Both interfaces demonstrate statistically significant positive price improvements compared to the common baseline across a range of block offsets.
-
-### Execution Quality in OFAs
-
-In the context of OFA systems, execution quality refers to the overall effectiveness and desirability of the trade execution experienced by users. The paper focuses on evaluating execution quality through the lens of "price improvement", which is defined as the difference between the realized price of a swap and a counterfactual baseline price.
-
-Specifically, the paper highlights a few key aspects of execution quality in OFA systems:
-
-1. **Price Improvement**: This is the primary metric used to assess execution quality. It captures how much better (or worse) the realized price is compared to a simulated baseline trade.
-2. **Factors Affecting Price Improvement**: Routing Efficiency, Gas Optimization, and Priority Fee Settings.
-3. **Comparison Across OFA Systems**: The framework allows for a systematic comparison of execution quality across different OFA implementations, such as 1Inch Fusion, UniswapX, 1Inch Aggregator, and Uniswap Classic.
-4. **Timing Considerations**: The paper also evaluates price improvement at different time offsets from the settlement block, to account for factors like transaction ordering and blockchain state changes.
 
 ### Mathematical Formulations
 
