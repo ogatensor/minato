@@ -1,3 +1,4 @@
+![alt text](image.png)
 # [[Quantifying Price Improvement in Order Flow Auctions]]
 
 ## Navigation
