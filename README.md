@@ -166,10 +166,10 @@ $$\pi = \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'
 ```
 
 Where:
-- $$\left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'}$$ represents the price improvement due to routing optimization ($\pi_{routing}$)
-- $$\left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'}$$ represents the price improvement due to gas optimization ($\pi_{gas}$) 
-- $$\left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'}$$ represents the price improvement due to priority fee optimization ($\pi_{fee}$)
-- $R(x, x')$ is the remainder term
+$$\left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'}$$ represents the price improvement due to routing optimization ($\pi_{routing}$)
+$$\left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'}$$ represents the price improvement due to gas optimization ($\pi_{gas}$) 
+$$\left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'}$$ represents the price improvement due to priority fee optimization ($\pi_{fee}$)
+$R(x, x')$ is the remainder term
 
 The paper then aggregates these components to obtain the overall price improvement:
 
