@@ -35,3 +35,4 @@ To emulate the approach of combining internal linking with hashtag notation in O
    - Test the document within the Obsidian environment to ensure that all links and tags work as expected. Obtain feedback from other users or colleagues to see if the document meets their needs and adjust accordingly.
 
 By following these steps, you can effectively use internal linking and hashtag notation in Obsidian to create a well-organized, easily navigable, and searchable document. This approach is particularly useful for complex documents where quick access to related concepts and sections is beneficial.
+By following these steps, you can effectively use internal linking and hashtag notation in Obsidian to create a well-organized, easily navigable, and searchable document. This approach is particularly useful for complex documents where quick access to related concepts and sections is beneficial.

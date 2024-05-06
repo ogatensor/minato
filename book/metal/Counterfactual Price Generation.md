@@ -14,6 +14,7 @@ The "counterfactual price" (`p_prime`) represents the price a swap *could have h
 * [[#Counterfactual Price Derivation|Counterfactual Price Derivation]]
 * [[#Derivation Steps|Derivation Steps]]
 * [[#Understanding Counterfactual Baseline in Context|Understanding Counterfactual Baseline in Context]]
+* [[#Wuxing Correspondence Table|Wuxing Correspondence Table]]
 
 **Mathematical Derivation**
 
@@ -53,6 +54,24 @@ p_prime = o' / (i + g' + f)
 * **Execution Quality Metric:**  The counterfactual price is not a prediction but rather a "what-if" scenario enabling comparison to actual trade execution.
 * **Baseline Model is Key:** The accuracy of the baseline function in realistically modeling alternate scenarios is critical for meaningful counterfactual prices.
 * **Time Sensitivity:** As market conditions fluctuate, the counterfactual baseline may need to be recalculated frequently to remain relevant.
+
+**Wuxing Correspondence Table**
+
+The counterfactual price formula can be interpreted through the lens of Wuxing theory as follows:
+
+- **Input Amount ($i$)** - Wood (木)
+- **Counterfactual Output Token Amount ($o'$)** - Fire (火)
+- **Counterfactual Gas Used ($g'$)** - Water (水)
+- **Baseline Function ($B$)** - Earth (土)
+- **Routing API** - Metal (金)
+
+The baseline generation function can be interpreted through the lens of Wuxing theory as follows:
+
+- **Optimal Route Calculation** - Wood (木)
+- **Gas Cost Estimation** - Fire (火)
+- **Simulation** - Water (水)
+
+These mappings can be added to the Obsidian documentation to provide a comprehensive view of how traditional Wuxing elements are integrated into various financial metrics and formulas across the codebase. This approach not only aids in understanding the mathematical models but also enriches them with philosophical insights, making the analysis more robust and multidimensional.
 
 **Let me know if you would like me to expand on:**
 

@@ -18,6 +18,7 @@ $$
 - [[#Derivation Steps|Derivation Steps]]
 - [[#Dialogues & Analysis|Dialogues & Analysis]]
 - [[#Understanding Realized Price Derivation in Context|Understanding Realized Price Derivation in Context]]
+- [[#Understanding Counterfactual Baseline in Context|Understanding Counterfactual Baseline in Context]]
 
 ### Mathematical Derivation
 
@@ -176,11 +177,8 @@ The precision in calculating the realized price is critical, as discussed in [Nu
 For developers implementing these concepts using Rust, the [Alloy library](book/metal/alloy-rs.md) provides tools for interacting with Ethereum blockchains, which can be useful for simulations and real-time calculations involving realized prices and other financial metrics.
 
 By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
-By understanding the derivation and application of the realized price within these contexts, one can appreciate its central role in the analytical frameworks used for evaluating OFAs, thereby enhancing the strategic decisions regarding trade executions and system optimizations.
 
-Absolutely! Let's integrate the concept of the counterfactual baseline into this analysis.
-
-**Understanding Counterfactual Baseline in Context**
+### Understanding Counterfactual Baseline in Context
 
 The counterfactual baseline, as proposed, adds a new dimension to the analysis of trade execution within an AMM setting. Here's how it relates to the broader themes discussed:
 

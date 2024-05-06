@@ -6,6 +6,7 @@
 - [[#Rust and IEEE-754 Standard|Rust and IEEE-754 Standard]]
 - [[#Ethereum and Floating-Point Types|Ethereum and Floating-Point Types]]
 - [[#Further Reading|Further Reading]]
+- [[#Wuxing Correspondence Table|Wuxing Correspondence Table]]
 
 ## Overview
 This section discusses the importance of numerical precision in financial calculations, particularly when working with real money. It highlights the potential issues that can arise from using floating-point arithmetic, which is the standard in many programming languages, including Rust.
@@ -40,4 +41,20 @@ The section provides links to additional resources for further exploration:
 6. **[[std::num::Wrapping]]**: [https://doc.rust-lang.org/std/num/struct.Wrapping.html](https://doc.rust-lang.org/std/num/struct.Wrapping.html)
 7. **[[Two's Complement]]**: [https://en.wikipedia.org/wiki/Two%27s_complement](https://en.wikipedia.org/wiki/Two%27s_complement)
 8. **[[Cargo Profiles]]**: [https://doc.rust-lang.org/cargo/reference/profiles.html](https://doc.rust-lang.org/cargo/reference/profiles.html)
+9. **[[Rust Data Types]]**: [https://doc.rust-lang.org/book/ch03-02-data-types.html](https://doc.rust-lang.org/book/ch03-02-data-types.html)
+
+## Wuxing Correspondence Table
+The realized price formula can be interpreted through the lens of Wuxing theory as follows:
+
+- **Routing Efficiency ($\\pi_{routing}$)** - Wood (木)
+- **Gas Optimization ($\\pi_{gas}$)** - Fire (火)
+- **Priority Fee Optimization ($\\pi_{fee}$)** - Metal (金)
+
+The baseline generation function can be interpreted through the lens of Wuxing theory as follows:
+
+- **Optimal Route Calculation** - Wood (木)
+- **Gas Cost Estimation** - Fire (火)
+- **Simulation** - Water (水)
+
+These mappings can be added to the Obsidian documentation to provide a comprehensive view of how traditional Wuxing elements are integrated into various financial metrics and formulas across the codebase. This approach not only aids in understanding the mathematical models but also enriches them with philosophical insights, making the analysis more robust and multidimensional.
 9. **[[Rust Data Types]]**: [https://doc.rust-lang.org/book/ch03-02-data-types.html](https://doc.rust-lang.org/book/ch03-02-data-types.html)

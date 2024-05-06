@@ -10,4 +10,6 @@ The paper proposes a framework to define and evaluate price improvements in onch
 - [[#Overview|Overview]]
 - [[#Empirical Findings|Empirical Findings]]
 - [[#Mathematical Formulations|Mathematical Formulations]]
+- [[#Wuxing Correspondence Table|Wuxing Correspondence Table]]
+- [[#Further Reading|Further Reading]]
 - [[#Further Reading|Further Reading]]
