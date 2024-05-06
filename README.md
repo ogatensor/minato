@@ -6,7 +6,7 @@
 - [[#Links|Links]]
 - [[#Challenges for AMMs|Challenges for AMMs]]
 - [[#Empirical Findings|Empirical Findings]]
-- [[#Mathematical Formulations|Mathematical Formulations]]
+- [[#Mathematical Formulations|Mathematical Formulations]] d
 
 ## Overview
 This section summarizes the key points from the paper "[[Quantifying Price Improvement in Order Flow Auctions]]" by Bachu, Wan, and Moallemi.
