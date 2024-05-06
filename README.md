@@ -164,9 +164,10 @@ To attribute the price improvement $\pi$, the paper proposes a Taylor series exp
 ```math
 $$\pi = \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'} + \left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'} + \left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'} + R(x, x')$$
 ```
+-
 
 Where:
-- 
+
 ```math
 \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'}$ 
 ```
