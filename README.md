@@ -143,8 +143,9 @@ The authors apply this attribution model to the empirical analysis of the 1Inch 
      ```math
      $$\pi = \left.\frac{\partial p}{\partial o}\right|_{o',g',f'} \cdot \frac{o - o'}{p'} + \left.\frac{\partial p}{\partial g}\right|_{o',g',f'} \cdot \frac{g - g'}{p'} + \left.\frac{\partial p}{\partial f}\right|_{o',g',f'} \cdot \frac{f - f'}{p'} + R(x, x')$$
      ```
-     
+
      - Where $R(x, x')$ is the remainder term
+
 The paper's PI attribution model is described as follows:
 
 The price function $p$ is defined as a function of the OFA controllable variables $x = (o, g, f)$, where:
